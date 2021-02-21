@@ -1,7 +1,16 @@
-spring:
-  profiles:
-    active: dev
-  #active: dev #表示开发环境
-
-#config:
-#  info: alipay is prepare
+#server:
+#  port: 3399
+#
+#spring:
+#  application:
+#    name: pap-order-service
+#  cloud:
+#    sentinel:
+#      transport:
+#        #配置Sentin dashboard地址
+#        dashboard: localhost:8080
+#        # 默认8719端口，假如被占用了会自动从8719端口+1进行扫描，直到找到未被占用的 端口
+#        port: 8719
+#
+#service-url:
+#  payment: http://pap-payment-service

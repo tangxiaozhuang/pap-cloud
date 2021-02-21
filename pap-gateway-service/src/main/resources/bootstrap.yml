@@ -1,9 +1,9 @@
-server:
-  port: 83
 
 spring:
   application:
     name: pap-gateway-service
+  profiles:
+    active: dev
   cloud:
     nacos:
       discovery:

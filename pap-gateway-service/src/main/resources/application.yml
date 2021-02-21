@@ -1,11 +1,6 @@
-server:
-  port: 83
-
-spring:
-  profiles:
-    active: dev
-
-
+#server:
+#  port: 83
+#
 #spring:
 #  application:
 #    name: pap-gateway-server
@@ -25,6 +20,3 @@ spring:
 #          uri: lb://pap-order-service
 #          predicates:
 #            - Path=/order/** # 断言，order路径路由到订单服务
-
-
-

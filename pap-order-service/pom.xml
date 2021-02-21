@@ -12,22 +12,22 @@
     <artifactId>pap-order-service</artifactId>
 
     <dependencies>
-        <!-- nacos config-->
+        <!-- nacos config，用于 nacos 服务配置 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
-        <!-- SpringCloud ailibaba nacos-->
+        <!-- SpringCloud ailibaba nacos,用于 nacos 服务发现 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-        <!-- SpringCloud ailibaba sentinel-datasource-nacos 持久化需要用到-->
+        <!-- SpringCloud ailibaba sentinel-datasource-nacos 集群模式持久化数据时需要用到-->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-datasource-nacos</artifactId>
         </dependency>
-        <!-- SpringCloud ailibaba sentinel-->
+        <!-- SpringCloud ailibaba sentinel 服务监控 、熔断、降级-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>

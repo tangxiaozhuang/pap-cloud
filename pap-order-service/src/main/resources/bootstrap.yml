@@ -1,9 +1,8 @@
-server:
-  port: 3399
-
 spring:
   application:
     name: pap-order-service
+  profiles:
+    active: dev
   cloud:
     nacos:
       discovery:
@@ -16,4 +15,4 @@ spring:
 
 #格式：${prefix}-${spring.profile.active}.${file-extension}
 #对应参数：${spring.application.name}-${spring.profile.active}.${file-extension}
-#本服务实例： pap-payment-service-dev.yaml ，其中pap-payment-service为服务命，dev为applicaion.yml 文件中的 spring.profile.active 参数
+#本服务实例： pap-payment-service-dev.yaml ，其中pap-payment-service为服务名，dev为 spring.profile.active 参数

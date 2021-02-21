@@ -1,9 +1,9 @@
-server:
-  port: 3388
 
 spring:
   application:
     name: pap-payment-service
+  profiles:
+    active: dev
   cloud:
     nacos:
       discovery:
